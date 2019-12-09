@@ -1,10 +1,16 @@
-import EmployeeHtml from '../assets/employees.html';
+import Employees from '../assets/employees.json'
 
 class EmployeeService {
 
-    static async getAllEmployees() {
+    static getAllEmployees() {
 
-        console.log(html);
+        let employees = Employees[1]
+
+        employees = employees.map((employee) => {
+            return { image: employee}
+        })
+
+        return employees
     }
 
 }
