@@ -1,0 +1,9 @@
+.employee-image img {
+    width: 140px;
+    height: auto;
+
+    position: absolute;
+    top: 0px;
+
+    transition: width 1s, height 1s;
+}

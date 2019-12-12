@@ -1,0 +1,12 @@
+.words {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    font-size: 100pt;
+    height: 100vh;
+    font-weight: bold;
+    text-shadow: 0 0 10px #000;
+}

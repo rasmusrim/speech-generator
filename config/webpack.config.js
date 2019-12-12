@@ -361,6 +361,16 @@ module.exports = function(webpackEnv) {
                 limit: imageInlineSizeLimit,
                 name: 'static/media/[name].[hash:8].[ext]',
               },
+              
+            },
+            {
+              test: /\.(html)$/,
+              use: {
+                loader: 'html-loader',
+                options: {
+                  attrs: [':data-src']
+                }
+              }
             },
             // Process application JS with Babel.
             // The preset includes JSX, Flow, TypeScript, and some ESnext features.

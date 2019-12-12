@@ -1,0 +1,9 @@
+.logo, img {
+    background: red;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    transition: opacity 1s;
+    z-index: -1000;
+
+}
